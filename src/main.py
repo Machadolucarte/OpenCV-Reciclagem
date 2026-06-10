@@ -34,8 +34,7 @@ def obter_ip_telefone():
         print(f"⚠️ Erro ao buscar IP: {e}")
         
     # Fallback
-    return "172.31.184.205" 
-
+    return "172.31.184.205"
 # Descobre o IP automaticamente
 IP_TELEFONE = obter_ip_telefone()
 print(f"📱 IP do telefone detectado: {IP_TELEFONE}")
